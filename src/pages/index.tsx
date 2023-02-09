@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ['latin'] })
 type Props = {
   title: string
 }
-
 export default function Home({ title = 'React Avancaçado!!!' }: Props) {
   return (
     <>
